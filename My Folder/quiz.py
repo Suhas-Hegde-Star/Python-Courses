@@ -23,7 +23,7 @@ print("ANIMAL QUIZ !!")
 
 # Question 1
 guess1 = input("\nWho is the God of Cricket?(Full Name) ")
-check_guess(guess1, "Sachin Ramesh Tendulkar")
+check_guess(guess1, "Sachin Ramesh Tendulkar" or "Sachin Tendulkar")
 
 # Question 2
 guess2 = input("\nWho won the first ever Cricket World Cup in 1975? ")
@@ -40,7 +40,6 @@ check_guess(guess4, "Narendra Modi Stadium")
 # Question 5
 guess5 = input("\nWhen did India win the latest World Cup? ")
 check_guess(guess5, "2024")
-
 
 # Print the total score
 print("\nYour score is", str(score))
