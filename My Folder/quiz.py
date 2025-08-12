@@ -33,7 +33,7 @@ check_guess(guess2, "West Indies")
 guess3 = input("\n What is the largest cricket stadium in the world by Boundary? ")
 check_guess(guess3, "Melbourne")
 
-# Question 5
+# Question 4
 guess4 = input("\n What is the largest cricket stadium in the world by Capacity?")
 check_guess(guess4, "Narendra Modi Stadium")
 
