@@ -10,6 +10,12 @@ def square(side, area):
     area = math.pow(side, 2)
     print("The area of the square with", side, "as the length is", area)
 
+def rect(length, breadth, area):
+    length = float(input("Enter the Length of the Rectangle"))
+    breadth = float(input("Enter the Breadth of the Rectangle"))
+    area = length * breadth
+    print("The area of the square with", length, "length", "and", breadth, "breadth is", area)
+
 def ask():
     while True:
         print("1. Area of Circle\n2. Area of a square\n. Area of a Rectangle\n4. Area of a Triangle")
