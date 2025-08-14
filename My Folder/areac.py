@@ -5,6 +5,11 @@ def circle(rad, area):
     area = math.pow(rad, 2) * math.pi
     print("The area of the circle with", rad, "as the radius is", area)
 
+def square(side, area):
+    side = float(input("Enter the Length of the Square"))
+    area = math.pow(side, 2)
+    print("The area of the square with", side, "as the length is", area)
+
 def ask():
     while True:
         print("1. Area of Circle\n2. Area of a square\n. Area of a Rectangle\n4. Area of a Triangle")
