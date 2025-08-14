@@ -33,7 +33,7 @@ def tri(o, t, th, waa, area):
             area = math.sqrt(s * (s - o) * (s - t) * (s - th))
             print("The area of the triangle is:", area)
         else:
-            print("Tnvalid Input. Try again")
+            print("Invalid Input. Try again")
 
 def ask(wanted):
     while True:
