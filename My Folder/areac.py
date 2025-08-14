@@ -1,8 +1,17 @@
 import math
 
 def circle(rad, area):
-    rad = float(input("Enter the Radius of the circle"))
+    rad = float(input("Enter the Radius of the Circle"))
     area = math.pow(rad, 2) * math.pi
-    print("The area of the circle with", rad, "radius is", area)
+    print("The area of the circle with", rad, "as the radius is", area)
 
-circle(rad= any, area= any)
+def ask():
+    while True:
+        print("1. Area of Circle\n2. Area of a square\n. Area of a Rectangle\n4. Area of a Triangle")
+        wanted = input("Enter the Suitable Number")
+        if wanted == "1":
+            circle(rad= any, area= any)
+        elif wanted == "2":
+            square(side= any, area= any)
+        elif wanted == "3":
+            rect(length= any, breadth= any, area= any)
