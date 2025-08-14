@@ -1,4 +1,5 @@
 import math
+import sys
 
 def circle(rad, area):
     rad = float(input("Enter the Radius of the Circle"))
@@ -19,10 +20,15 @@ def rect(length, breadth, area):
 def ask():
     while True:
         print("1. Area of Circle\n2. Area of a square\n. Area of a Rectangle\n4. Area of a Triangle")
-        wanted = input("Enter the Suitable Number")
+        wanted = input("Enter the Suitable Number or e to exit")
         if wanted == "1":
             circle(rad= any, area= any)
         elif wanted == "2":
             square(side= any, area= any)
         elif wanted == "3":
             rect(length= any, breadth= any, area= any)
+        elif wanted == "4":
+            tri(o= any, t=any, th= any)
+        elif wanted == "e".lower:
+            print("See you later.\nBye!!")
+            sys.exit
