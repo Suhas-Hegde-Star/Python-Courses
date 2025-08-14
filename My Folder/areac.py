@@ -37,7 +37,7 @@ def tri(o, t, th, waa, area):
 
 def ask(wanted):
     while True:
-        print("1. Area of Circle\n2. Area of a square\n. Area of a Rectangle\n4. Area of a Triangle")
+        print("1. Area of Circle\n2. Area of a square\n3. Area of a Rectangle\n4. Area of a Triangle")
         wanted = input("Enter the Suitable Number or e to exit")
         if wanted == "1":
             circle(rad= any, area= any)
