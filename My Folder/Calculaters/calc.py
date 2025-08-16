@@ -35,5 +35,7 @@ def ask(wanted):
         elif wanted.lower == "exit":
             print("Bye\nSee you next time")
             sys.exit
+        elif wanted.lower == "square root":
+            root(num= any, rot= any)
         else:
-            print("Sorry. Input may be invalid\nOR\nWe do not have the data")
+            print("Input may be invalid\nOR\nWe do not have the data")
