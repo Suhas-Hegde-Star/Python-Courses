@@ -27,3 +27,11 @@ def exponentation(num, ra, ans):
     ans = num ** ra
     print("The number", num, "raised to", ra, "is", ans)
 
+def ask(wanted):
+    wanted = input("Enter what you want(Basic Words)")
+    if wanted.lower == "square":
+        square(num= any, sq= any)
+    elif wanted.lower == "exit":
+        print("Bye\nSee you next time")
+    else:
+        print("Sorry. Input may be invalid\nOR\nWe do not have the data")
