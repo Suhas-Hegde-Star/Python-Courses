@@ -21,8 +21,9 @@ def cube_root(num, cr):
     cr = math.sqrt(math.sqrt(num))
     print("The cube root of", num, "is", cr)
 
-def raised_to(num, ra, ans):
+def exponentation(num, ra, ans):
     num = int(input("Enter the base"))
     ra = int(input("Enter the exponent"))
     ans = num ** ra
     print("The number", num, "raised to", ra, "is", ans)
+
