@@ -30,12 +30,12 @@ def exponentation(num, ra, ans):
 def ask(wanted):
     while True:
         wanted = input("Enter what you want(Basic Words)")
-        if wanted.lower == "square":
+        if wanted.lower() == "square":
             square(num= any, sq= any)
-        elif wanted.lower == "exit":
+        elif wanted.lower() == "exit":
             print("Bye\nSee you next time")
             sys.exit
-        elif wanted.lower == "square root":
+        elif wanted.lower() == "square root":
             root(num= any, rot= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
