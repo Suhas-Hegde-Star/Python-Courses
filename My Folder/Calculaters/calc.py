@@ -15,3 +15,8 @@ def cube(num, cu):
     num = int(input("Enter the number"))
     cu = num ** 3
     print("Tne square of", num, "is", cu)
+
+def cube_root(num, cr):
+    num = int(input("Enter the number"))
+    cr = math.sqrt(math.sqrt(num))
+    print("Tne square of", num, "is", cr)
