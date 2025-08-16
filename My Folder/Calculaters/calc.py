@@ -10,3 +10,8 @@ def root(num, rot):
     num = int(input("Enter the number"))
     rot = math.sqrt(num)
     print("Tne square of", num, "is", rot)
+
+def cube(num, cu):
+    num = int(input("Enter the number"))
+    cu = num ** 3
+    print("Tne square of", num, "is", cu)
