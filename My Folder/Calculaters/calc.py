@@ -77,5 +77,13 @@ def ask(wanted):
             cube(num= any, cu= any)
         elif wanted.lower() == "cube root":
             cube_root(num= any, cr= any)
+        elif wanted.lower() == "area of circle":
+            circle(rad= any, area= any)
+        elif wanted == "area of square":
+            square(side= any, area= any)
+        elif wanted == "area of rectangle":
+            rect(length= any, breadth= any, area= any)
+        elif wanted == "area of triangle":
+            tri(o= any, t=any, th= any, waa= any, area= any, s= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
