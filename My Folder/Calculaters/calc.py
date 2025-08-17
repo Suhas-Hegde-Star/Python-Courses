@@ -37,5 +37,11 @@ def ask(wanted):
             sys.exit
         elif wanted.lower() == "square root":
             root(num= any, rot= any)
+        elif wanted.lower() == "exponentation":
+            exponentation(num= any, ra= any, ans= any)
+        elif wanted.lower() == "cube":
+            cube(num= any, cu= any)
+        elif wanted.lower() == "square root":
+            cube_root(num= any, cr= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
