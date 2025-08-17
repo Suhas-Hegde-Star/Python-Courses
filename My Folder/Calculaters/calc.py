@@ -41,7 +41,7 @@ def ask(wanted):
             exponentation(num= any, ra= any, ans= any)
         elif wanted.lower() == "cube":
             cube(num= any, cu= any)
-        elif wanted.lower() == "square root":
+        elif wanted.lower() == "cube root":
             cube_root(num= any, cr= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
