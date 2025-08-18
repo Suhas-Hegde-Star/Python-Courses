@@ -61,6 +61,26 @@ def tri(o, t, th, waa, area, s):
         else:
             print("Invalid Input. Try again")
 
+def add(n1, n2):
+    n1 = float(input("Enter the first number"))
+    n2 = float(input("Enter the first number"))
+    print("The sum of", n1, "and", n2, "is", n2 + n1)
+
+def sub(n1, n2):
+    n1 = float(input("Enter the first number"))
+    n2 = float(input("Enter the first number"))
+    print("The difference of", n1, "and", n2, "is", n2 - n1)
+
+def add(n1, n2):
+    n1 = float(input("Enter the first number"))
+    n2 = float(input("Enter the first number"))
+    print("The product of", n1, "and", n2, "is", n2 * n1)
+
+def add(n1, n2):
+    n1 = float(input("Enter the first number"))
+    n2 = float(input("Enter the first number"))
+    print( n1, "divided by", n2, "is", n2 / n1)
+
 def ask(wanted):
     while True:
         wanted = input("Enter what you want(Basic Words)")
