@@ -62,28 +62,29 @@ def tri(o, t, th, waa, area, s):
             print("Invalid Input. Try again ")
 
 def add(n1, n2):
-    n1 = float(input("Enter the first number"))
-    n2 = float(input("Enter the second number"))
+    n1 = float(input("Enter the first number "))
+    n2 = float(input("Enter the second number "))
     print("The sum of", n1, "and", n2, "is", n2 + n1)
 
 def sub(n1, n2):
-    n1 = float(input("Enter the first number"))
-    n2 = float(input("Enter the second number"))
+    n1 = float(input("Enter the first number "))
+    n2 = float(input("Enter the second number "))
     print("The difference of", n1, "and", n2, "is", n2 - n1)
 
 def mul(n1, n2):
-    n1 = float(input("Enter the first number"))
-    n2 = float(input("Enter the second number"))
+    n1 = float(input("Enter the first number "))
+    n2 = float(input("Enter the second number "))
     print("The product of", n1, "and", n2, "is", n2 * n1)
 
 def div(n1, n2):
-    n1 = float(input("Enter the first number"))
-    n2 = float(input("Enter the second number"))
+    n1 = float(input("Enter the first number "))
+    n2 = float(input("Enter the second number "))
     print( n1, "divided by", n2, "is", n2 / n1)
 
 def tri_num(i, want):
     while True:
-        want = int(input("Do you want \"th\" or series?\nPress"))
+        want = int(input("Do you want \"th\" or series?\nPress th or s "))
+        if want.lower() == "th":
 
 
 def ask(wanted):
