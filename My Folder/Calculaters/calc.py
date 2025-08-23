@@ -84,8 +84,7 @@ def div(n1, n2):
 def tri_num(i, want):
     while True:
         want = int(input("Do you want \"th\" or series?\nPress th or s "))
-        if want.lower() == "th":
-
+    
 
 def ask(wanted):
     while True:
