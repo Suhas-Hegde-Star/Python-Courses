@@ -18,7 +18,7 @@ def cube(num, cu):
 
 def cube_root(num, cr):
     num = int(input("Enter the number "))
-    cr = math.sqrt(math.sqrt(num))
+    cr = math.pow (num, 1/3)
     print("The cube root of", num, "is", cr)
 
 def exponentation(num, ra, ans):
@@ -82,13 +82,8 @@ def div(n1, n2):
     print( n1, "divided by", n2, "is", n2 / n1)
 
 def tri_num(i, want, n):
-    while True:
-        want = int(input("Do you want \"th\" or series?\nPress th or s "))
-        if want.lower() == "th":
-            n = int(input("Wn=hich triangle number do you want? "))
-            return [i * (i + 1) // 2 for i in range(1, n+1)]
-        elif want.lower() == "s":
-            n = int(input(""))
+    n = int(input("Till Which triangle number do you want? "))
+    return [i * (i + 1) // 2 for i in range(1, n+1)]
 
 def ask(wanted):
     while True:
