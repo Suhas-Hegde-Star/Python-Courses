@@ -81,14 +81,16 @@ def div(n1, n2):
     n2 = float(input("Enter the second number "))
     print( n1, "divided by", n2, "is", n2 / n1)
 
-def tri_num(i, want):
+def tri_num(i, want, n):
     while True:
         want = int(input("Do you want \"th\" or series?\nPress th or s "))
-    
+        if want.lower() == "th":
+            n = int(input("Wn=hich triangle number do you want? "))
+            return [i * (i + 1) // 2 for i in range(1, n+1)]
 
 def ask(wanted):
     while True:
-        wanted = input("Enter what you want(Basic Words)")
+        wanted = input("Enter what you want(Basic Words)\n")
         if wanted.lower() == "square":
             square(num= any, sq= any)
         elif wanted.lower() == "exit":
@@ -118,6 +120,8 @@ def ask(wanted):
             mul(n1= any, n2= any)
         elif wanted.lower() == "division" or "divide":
             div(n1= any, n2= any)
+        elif wanted.lower() == "triangle numbers":
+            tri_num(i= any, want= any, n= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
 
