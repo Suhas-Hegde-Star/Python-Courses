@@ -4,12 +4,13 @@ import p2
 import nums
 import Exit
 
+
 def ask(wanted):
     while True:
         wanted = input("Enter what you want(Basic Words)\n")
         if wanted.lower() == "square":
             a_a.square(num= any, sq= any)
-        elif wanted.lower() == Exit.exit:
+        elif wanted.lower() == Exit.exit[1] or Exit.exit[2] or Exit.exit[3]:
             print("Bye\nSee you next time")
             sys.exit
         elif wanted.lower() == "square root":
