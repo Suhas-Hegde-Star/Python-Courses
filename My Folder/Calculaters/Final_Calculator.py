@@ -2,6 +2,7 @@ import math
 import sys
 import file1
 import file2
+import file3
 
 def ask(wanted):
     while True:
