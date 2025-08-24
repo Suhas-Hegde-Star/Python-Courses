@@ -2,13 +2,14 @@ import sys
 import a_a
 import p2
 import nums
+import Exit
 
 def ask(wanted):
     while True:
         wanted = input("Enter what you want(Basic Words)\n")
         if wanted.lower() == "square":
             a_a.square(num= any, sq= any)
-        elif wanted.lower() == "exit":
+        elif wanted.lower() == Exit.exit:
             print("Bye\nSee you next time")
             sys.exit
         elif wanted.lower() == "square root":
