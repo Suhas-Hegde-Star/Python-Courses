@@ -1,3 +1,5 @@
+import math
+
 def rect(length, breadth, area):
     length = float(input("Enter the Length of the Rectangle "))
     breadth = float(input("Enter the Breadth of the Rectangle "))
