@@ -1,5 +1,6 @@
 import math
 import sys
+import file1
 
 def rect(length, breadth, area):
     length = float(input("Enter the Length of the Rectangle "))
