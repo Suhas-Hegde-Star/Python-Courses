@@ -29,6 +29,7 @@ def ask(wanted):
         elif wanted.lower() == "area of triangle":
             p2.tri(o= any, t=any, th= any, waa= any, area= any, s= any)
         elif wanted.lower() == "addition" or "add":
+            print("hi")
             p2.add(n1= any, n2= any)
         elif wanted.lower() == "subtraction" or "subtract":
             p2.sub(n1= any, n2= any)

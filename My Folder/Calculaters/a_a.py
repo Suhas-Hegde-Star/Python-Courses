@@ -35,9 +35,3 @@ def square(side, area):
     side = float(input("Enter the Length of the Square "))
     area = math.pow(side, 2)
     print("The area of the square with", side, "as the length is", area)
-
-def rect(length, breadth, area):
-    length = float(input("Enter the Length of the Rectangle "))
-    breadth = float(input("Enter the Breadth of the Rectangle "))
-    area = length * breadth
-    print("The area of the square with", length, "length", "and", breadth, "breadth is", area)
