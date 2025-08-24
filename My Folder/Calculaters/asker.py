@@ -9,7 +9,7 @@ def ask(wanted):
         wanted = input("Enter what you want(Basic Words)\n")
         if wanted.lower() == "square":
             a_a.square(num= any, sq= any)
-        elif wanted.lower() == Exit.exit[1] or Exit.exit[2] or Exit.exit[3]:
+        elif wanted.lower() == Exit.e[1] or Exit.e[2] or Exit.e[3] or Exit.e[4] or Exit.e[5] or Exit.e[6] or Exit.e[7] or Exit.e[8] or Exit.e[9]:
             print("Bye\nSee you next time")
             sys.exit
         elif wanted.lower() == "square root":
