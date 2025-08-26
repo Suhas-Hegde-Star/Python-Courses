@@ -3,6 +3,7 @@ import a_a
 import p2
 import nums
 import Exit
+import py
 
 def ask(wanted):
     while True:
@@ -38,5 +39,11 @@ def ask(wanted):
             p2.div(n1= any, n2= any)
         elif wanted.lower() == "triangle numbers":
             nums.tri_num(i= any, want= any, n= any)
+        elif wanted.lower() == "cylinder":
+            py.cylinder(radius= any, height= any)
+        elif wanted.lower() == "sphere":
+            py.sphere(radius= any)
+        elif wanted.lower() == "cuboid":
+            py.cuboid(length= any, width= any, height= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
