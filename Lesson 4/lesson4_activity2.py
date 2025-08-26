@@ -19,3 +19,8 @@ print ("10 coin:", n10)
 print ("5 coin:", n5)
 print ("2 coin:", n2)
 print ("1 coin:", n1)
+
+print("Total notes:", n500 + n200 + n100 + n50 + n20)
+print("Total coins:", n10 + n5 + n2 + n1)
+print("Total notes and coins:", n500 + n200 + n100 + n50 + n20 + n10 + n5 + n2 + n1)
+print("Thank you for using this service")

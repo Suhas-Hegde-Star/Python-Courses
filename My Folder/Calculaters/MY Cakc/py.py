@@ -52,15 +52,3 @@ def calculate_cube_area(side):
 def calculate_cube_volume(side):
     side = float(input("Enter the side length of the cube: "))
     return side * side * side
-
-def calculate_cuboid_area(length, width, height):
-    length = float(input("Enter the length of the cuboid: "))
-    width = float(input("Enter the width of the cuboid: "))
-    height = float(input("Enter the height of the cuboid: "))
-    return 2 * (length * width + width * height + height * length)
-
-def calculate_cuboid_volume(length, width, height):
-    length = float(input("Enter the length of the cuboid: "))
-    width = float(input("Enter the width of the cuboid: "))
-    height = float(input("Enter the height of the cuboid: "))
-    return length * width * height
