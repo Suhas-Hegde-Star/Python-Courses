@@ -3,47 +3,40 @@ import a_a
 import p2
 import nums
 import Exit
-import py
 
 def ask(wanted):
     while True:
         wanted = input("Enter what you want(Basic Words)\n")
-        if wanted.lower() == "square":
+        if wanted.lower() == Exit.sq:
             a_a.square(num= any, sq= any)
-        elif wanted.lower() == Exit.e[1] or Exit.e[2] or Exit.e[3] or Exit.e[4] or Exit.e[5] or Exit.e[6] or Exit.e[7] or Exit.e[8] or Exit.e[9]:
+        elif wanted.lower() == Exit.e:
             print("Bye\nSee you next time")
             sys.exit
-        elif wanted.lower() == "square root":
+        elif wanted.lower() == Exit.sq:
             a_a.root(num= any, rot= any)
-        elif wanted.lower() == "exponentation":
+        elif wanted.lower() == Exit.ex:
             a_a.exponentation(num= any, ra= any, ans= any)
-        elif wanted.lower() == "cube":
+        elif wanted.lower() == Exit.cu:
             a_a.cube(num= any, cu= any)
-        elif wanted.lower() == "cube root":
+        elif wanted.lower() == Exit.cr:
             a_a.cube_root(num= any, cr= any)
-        elif wanted.lower() == "area of circle":
+        elif wanted.lower() == Exit.rad:
             a_a.circle(rad= any, area= any)
-        elif wanted.lower() == "area of square":
+        elif wanted.lower() == Exit.asq:
             a_a.square(side= any, area= any)
-        elif wanted.lower() == "area of rectangle":
+        elif wanted.lower() == Exit.arr:
             p2.rect(length= any, breadth= any, area= any)
-        elif wanted.lower() == "area of triangle":
+        elif wanted.lower() == Exit.art:
             p2.tri(o= any, t=any, th= any, waa= any, area= any, s= any)
-        elif wanted.lower() == "addition" or "add":
+        elif wanted.lower() == Exit.add:
             p2.add(n1= any, n2= any)
-        elif wanted.lower() == "subtraction" or "subtract":
+        elif wanted.lower() == Exit.sub:
             p2.sub(n1= any, n2= any)
-        elif wanted.lower() == "multiplication" or "multiply":
+        elif wanted.lower() == Exit.mul:
             p2.mul(n1= any, n2= any)
-        elif wanted.lower() == "division" or "divide":
+        elif wanted.lower() == Exit.div:
             p2.div(n1= any, n2= any)
-        elif wanted.lower() == "triangle numbers":
+        elif wanted.lower() == Exit.tnu:
             nums.tri_num(i= any, want= any, n= any)
-        elif wanted.lower() == "cylinder":
-            py.cylinder(radius= any, height= any)
-        elif wanted.lower() == "sphere":
-            py.sphere(radius= any)
-        elif wanted.lower() == "cuboid":
-            py.cuboid(length= any, width= any, height= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
