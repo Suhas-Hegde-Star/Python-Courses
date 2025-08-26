@@ -25,5 +25,3 @@ sub = "subtraction" and "subtract" and "minus" and "take away" and "take them aw
 mul = "multiplication" and "multiply" and "times" and "multiplying" and "multiply it" and "make it multiplication" and "make it multiply" and "make it times" and "multiply them" and "multiply these" and "multiply those" and "multiply this" and "multiply that"
 
 div = "division" and "divide" and "dividing" and "divide it" and "make it division" and "make it divide" and "divide them" and "divide these" and "divide those" and "divide this" and "divide that"
-
-tnu = "triangle numbers" and "triangular numbers" and "tri num" and "triangular num" and "triangular" and "triangle"and "tri" and "tri num" and "triangular num" and "triangular"

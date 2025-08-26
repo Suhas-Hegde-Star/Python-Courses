@@ -3,10 +3,6 @@ import a_a
 import p2
 import Exit
 
-def tri_num(n):
-    n = int(input("Till Which triangle number do you want? "))
-    print([i * (i + 1) // 2 for i in range(1, n+1)])
-
 def ask(wanted):
     while True:
         wanted = input("Enter what you want(Basic Words)\n")
@@ -39,7 +35,5 @@ def ask(wanted):
             p2.mul(n1= any, n2= any)
         elif wanted.lower() == Exit.div:
             p2.div(n1= any, n2= any)
-        elif wanted.lower() == Exit.tnu:
-            tri_num(n= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
