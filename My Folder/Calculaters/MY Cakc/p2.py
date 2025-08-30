@@ -32,7 +32,10 @@ def add(n1, n2):
 def sub(n1, n2):
     n1 = float(input("Enter the first number "))
     n2 = float(input("Enter the second number "))
-    print("The difference of", n1, "and", n2, "is", n2 - n1)
+    if n2 > n1:
+        print("The difference of", n1, "and", n2, "is", n2 - n1)
+    else:
+        print("The difference of", n1, "and", n2, "is", n1 - n2)
 
 def mul(n1, n2):
     n1 = float(input("Enter the first number "))
@@ -42,4 +45,4 @@ def mul(n1, n2):
 def div(n1, n2):
     n1 = float(input("Enter the first number "))
     n2 = float(input("Enter the second number "))
-    print( n1, "divided by", n2, "is", n2 / n1)
+    print( n1, "divided by", n2, "is", n1 / n2)

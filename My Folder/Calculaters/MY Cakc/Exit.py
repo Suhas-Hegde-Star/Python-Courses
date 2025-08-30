@@ -1,27 +1,27 @@
-e = "exit" and "quit"and "go" and "i want to quit" and "i want to exit" and "i want to go" and "want to quit" and"want to exit" and "want to go" and "stop" and "end" and "close" and "terminate" and "bye" and "see you" and "see you later" and "see ya" and "see ya later"
+e = "exit" or "quit" or "go" or "i want to quit"  or "i want to exit"  or "i want to go"  or "want to quit" or "want to exit"  or "want to go"  or "stop"  or "end"  or "close"  or "terminate"  or "bye"  or "see you"  or "see you later"  or "see ya"  or "see ya later"
 
-sq = "square" and "squaring" and "give me the square" and "give me square" and "gimme square" and "gimme the square" and "squared" and "square it" and "make it square" and "make square" and "second power" and "to the second power" and "to second power"
+exx = "exit" or "quit"
 
-rt = "square root" and "root" and "squareroot" and "squareroot" and "give me the square root" and "give me square root" and "give me root" and "gimme root" and "gimme square root" and "gimme squareroot" and "gimme the square root"
+sq = "square" or "squaring" or "give me the square" or "give me square" or "gimme square" or "gimme the square" or "squared" or "square it" or "make it square" or "make square" or "second power" or "to the second power" or "to second power"
 
-ex = "exponentation" and "power" and "raise to power" and "raise it to power" and "raise to the power" and "raise it to the power" and "to the power" and "to power" and "exponent" and "exponentiate" and "exponentiation"
+rt = "square root" or "root" or "squareroot" or "squareroot" or "give me the square root" or "give me square root" or "give me root" or "gimme root" or "gimme square root" or "gimme squareroot" or "gimme the square root"
 
-cu = "cube" and "cubing" and "give me the cube" and "give me cube" and "gimme cube" and "gimme the cube" and "cubed" and "cube it" and "make it cube" and "make cube" and "third power" and "to the third power" and "to third power"
+ex = "exponentation" or "power" or "raise to power" or "raise it to power" or "raise to the power" or "raise it to the power" or "to the power" or "to power" or "exponent" or "exponentiate" or "exponentiation"
 
-cr = "cube root" and "cuberoot" and "give me the cube root" and "give me cube root" and "give me root" and "gimme root" and "gimme cube root" and "gimme cuberoot" and "gimme the cube root" and "cube root it" and "make it cube root" and "make cube root"
+cu = "cube" or "cubing" or "give me the cube" or "give me cube" or "gimme cube" or "gimme the cube" or "cubed" or "cube it" or "make it cube" or "make cube" or "third power" or "to the third power" or "to third power"
 
-rad = "area of circle" and "circle area" and "circle" and "area circle" and "area of a circle" and "area of the circle" and "area" and "circle area" and "area circle"
+cr = "cube root" or "cuberoot" or "give me the cube root" or "give me cube root" or "give me root" or "gimme root" or "gimme cube root" or "gimme cuberoot" or "gimme the cube root" or "cube root it" or "make it cube root" or "make cube root"
 
-asq = "area of square" and "square area" and "square" and "area square" and "area of a square" and "area of the square" and "area" and "square area" and "area square" and "area of squares" and "squares area" and "squares"
+rad = "area of circle" or "circle area" or "circle" or "area circle" or "area of a circle" or "area of the circle" or "area" or "circle area" or "area circle"
 
-arr = "area of rectangle" and "rectangle area" and "rectangle" and "area rectangle" and "area of a rectangle" and "area of the rectangle" and "area" and "rectangle area" and "area rectangle" and "area of rectangles" and "rectangles area" and "rectangles"
+asq = "area of square" or "square area" or "square" or "area square" or "area of a square" or "area of the square" or "area" or "square area" or "area square" or "area of squares" or "squares area" or "squares"
 
-art = "area of triangle" and "triangle area" and "triangle" and "area triangle" and "area of a triangle" and "area of the triangle" and "area" and "triangle area" and "area triangle" and "area of triangles" and "triangles area" and "triangles"
+arr = "area of rectangle" or "rectangle area" or "rectangle" or "area rectangle" or "area of a rectangle" or "area of the rectangle" or "area" or "rectangle area" or "area rectangle" or "area of rectangles" or "rectangles area" or "rectangles"
 
-add = "addition" and "add" and "sum" and "plus" and "adding" and "add it" and "make it addition" and "make it add" and "make it sum" and "make it plus" and "add them" and "add these" and "add those" and "add this" and "add that"
+art = "area of triangle" or "triangle area" or "triangle" or "area triangle" or "area of a triangle" or "area of the triangle" or "area" or "triangle area" or "area triangle" or "area of triangles" or "triangles area" or "triangles"
 
-sub = "subtraction" and "subtract" and "minus" and "take away" and "take them away" and "take these away" and "take those away" and "take this away" and "take that away" and "subtract it" and "make it subtraction" and "make it subtract" and "make it minus"
+add = "addition" or "add" or "sum" or "plus" or "adding" or "add it" or "make it addition" or "make it add" or "make it sum" or "make it plus" or "add them" or "add these" or "add those" or "add this" or "add that"
 
-mul = "multiplication" and "multiply" and "times" and "multiplying" and "multiply it" and "make it multiplication" and "make it multiply" and "make it times" and "multiply them" and "multiply these" and "multiply those" and "multiply this" and "multiply that"
+sub = "subtraction" or "subtract" or "minus" or "take away" or "take them away" or "take these away" or "take those away" or "take this away" or "take that away" or "subtract it" or "make it subtraction" or "make it subtract" or "make it minus"
 
-div = "division" and "divide" and "dividing" and "divide it" and "make it division" and "make it divide" and "divide them" and "divide these" and "divide those" and "divide this" and "divide that"
+mul = "multiplication" or "multiply" or "times" or "multiplying" or "multiply it" or "make it multiplication" or "make it multiply" or "make it times" or "multiply them" or "multiply these" or "multiply those" or "multiply this" or "multiply that"

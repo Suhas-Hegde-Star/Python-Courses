@@ -1,39 +1,44 @@
 import sys
 import a_a
 import p2
-import Exit
 
 def ask(wanted):
     while True:
         wanted = input("Enter what you want(Basic Words)\n")
-        if wanted.lower() == Exit.sq:
+        if wanted.lower() == "square" or wanted.lower() == "squaring" or wanted.lower() == "give me the square" or wanted.lower() == "give me square" or wanted.lower() == "gimme square" or wanted.lower() == "gimme the square" or wanted.lower() == "squared" or wanted.lower() == "square it" or wanted.lower() == "make it square" or wanted.lower() == "make square" or wanted.lower() == "second power" or wanted.lower() == "to the second power" or wanted.lower() == "to second power":
             a_a.square(num= any, sq= any)
-        elif wanted.lower() == Exit.e:
+        elif wanted.lower() == "exit" or wanted.lower() == "quit" or wanted.lower() == "go" or wanted.lower() == "i want to quit" or wanted.lower() == "i want to exit" or wanted.lower() == "i want to go" or wanted.lower() == "want to quit" or wanted.lower() == "want to exit" or wanted.lower() == "want to go" or wanted.lower() == "stop" or wanted.lower() == "end" or wanted.lower() == "close" or wanted.lower() == "terminate" or wanted.lower() == "bye" or wanted.lower() == "see you" or wanted.lower() == "see you later" or wanted.lower() == "see ya" or wanted.lower() == "see ya later":
             print("Bye\nSee you next time")
             sys.exit
-        elif wanted.lower() == Exit.sq:
+        elif wanted.lower() == "square root" or wanted.lower() == "root" or wanted.lower() == "squareroot" or wanted.lower() == "squareroot" or wanted.lower() == "give me the square root" or wanted.lower() == "give me square root" or wanted.lower() == "give me root" or wanted.lower() == "gimme root" or wanted.lower() == "gimme square root" or wanted.lower() == "gimme squareroot" or wanted.lower() == "gimme the square root":
             a_a.root(num= any, rot= any)
-        elif wanted.lower() == Exit.ex:
+        elif wanted.lower() == "exponentation" or wanted.lower() == "power" or wanted.lower() == "raise to power" or wanted.lower() == "raise it to power" or wanted.lower() == "raise to the power" or wanted.lower() == "raise it to the power" or wanted.lower() == "to the power" or wanted.lower() == "to power" or wanted.lower() == "exponent" or wanted.lower() == "exponentiate" or wanted.lower() == "exponentiation":
             a_a.exponentation(num= any, ra= any, ans= any)
-        elif wanted.lower() == Exit.cu:
+        elif wanted.lower() == "cube" or wanted.lower() == "cubing" or wanted.lower() == "give me the cube" or wanted.lower() == "give me cube" or wanted.lower() == "gimme cube" or wanted.lower() == "gimme the cube" or wanted.lower() == "cubed" or wanted.lower() == "cube it" or wanted.lower() == "make it cube" or wanted.lower() == "make cube" or wanted.lower() == "third power" or wanted.lower() == "to the third power" or wanted.lower() == "to third power":
             a_a.cube(num= any, cu= any)
-        elif wanted.lower() == Exit.cr:
+        elif wanted.lower() == "cube root" or wanted.lower() == "cuberoot" or wanted.lower() == "give me the cube root" or wanted.lower() == "give me cube root" or wanted.lower() == "give me root" or wanted.lower() == "gimme root" or wanted.lower() == "gimme cube root" or wanted.lower() == "gimme cuberoot" or wanted.lower() == "gimme the cube root" or wanted.lower() == "cube root it" or wanted.lower() == "make it cube root" or wanted.lower() == "make cube root":
             a_a.cube_root(num= any, cr= any)
-        elif wanted.lower() == Exit.rad:
+        elif wanted.lower() == "area of circle" or wanted.lower() == "circle area" or wanted.lower() == "circle" or wanted.lower() == "area circle" or wanted.lower() == "area of a circle" or wanted.lower() == "area of the circle" or wanted.lower() == "area" or wanted.lower() == "circle area" or wanted.lower() == "area circle" or wanted.lower() == "area of circles" or wanted.lower() == "circles area" or wanted.lower() == "circles":
             a_a.circle(rad= any, area= any)
-        elif wanted.lower() == Exit.asq:
+        elif wanted.lower() == "area of square" or wanted.lower() == "square area" or wanted.lower() == "square" or wanted.lower() == "area square" or wanted.lower() == "area of a square" or wanted.lower() == "area of the square" or wanted.lower() == "area" or wanted.lower() == "square area" or wanted.lower() == "area square" or wanted.lower() == "area of squares" or wanted.lower() == "squares area" or wanted.lower() == "squares":
             a_a.square(side= any, area= any)
-        elif wanted.lower() == Exit.arr:
+        elif wanted.lower() == "area of rectangle" or wanted.lower() == "rectangle area" or wanted.lower() == "rectangle" or wanted.lower() == "area rectangle" or wanted.lower() == "area of a rectangle" or wanted.lower() == "area of the rectangle" or wanted.lower() == "area" or wanted.lower() == "rectangle area" or wanted.lower() == "area rectangle" or wanted.lower() == "area of rectangles" or wanted.lower() == "rectangles area" or wanted.lower() == "rectangles":
             p2.rect(length= any, breadth= any, area= any)
-        elif wanted.lower() == Exit.art:
+        elif wanted.lower() == "area of triangle" or wanted.lower() == "triangle area" or wanted.lower() == "triangle" or wanted.lower() == "area triangle" or wanted.lower() == "area of a triangle" or wanted.lower() == "area of the triangle" or wanted.lower() == "area" or wanted.lower() == "triangle area" or wanted.lower() == "area triangle" or wanted.lower() == "area of triangles" or wanted.lower() == "triangles area" or wanted.lower() == "triangles":
             p2.tri(o= any, t=any, th= any, waa= any, area= any, s= any)
-        elif wanted.lower() == Exit.add:
+        elif wanted.lower() == "addition" or wanted.lower() == "add" or wanted.lower() == "sum" or wanted.lower() == "plus" or wanted.lower() == "adding" or wanted.lower() == "add it" or wanted.lower() == "make it addition" or wanted.lower() == "make it add" or wanted.lower() == "make it sum" or wanted.lower() == "make it plus" or wanted.lower() == "add them" or wanted.lower() == "add these" or wanted.lower() == "add those" or wanted.lower() == "add this" or wanted.lower() == "add that":
             p2.add(n1= any, n2= any)
-        elif wanted.lower() == Exit.sub:
+        elif wanted.lower() == "subtraction" or wanted.lower() == "subtract" or wanted.lower() == "minus" or wanted.lower() == "take away" or wanted.lower() == "take them away" or wanted.lower() == "take these away" or wanted.lower() == "take those away" or wanted.lower() == "take this away" or wanted.lower() == "take that away" or wanted.lower() == "subtract it" or wanted.lower() == "make it subtraction" or wanted.lower() == "make it subtract" or wanted.lower() == "make it minus": 
             p2.sub(n1= any, n2= any)
-        elif wanted.lower() == Exit.mul:
+        elif wanted.lower() == "multiplication" or wanted.lower() == "multiply" or wanted.lower() == "times" or wanted.lower() == "multiplying" or wanted.lower() == "multiply it" or wanted.lower() == "make it multiplication" or wanted.lower() == "make it multiply" or wanted.lower() == "make it times" or wanted.lower() == "multiply them" or wanted.lower() == "multiply these" or wanted.lower() == "multiply those" or wanted.lower() == "multiply this" or wanted.lower() == "multiply that":
             p2.mul(n1= any, n2= any)
-        elif wanted.lower() == Exit.div:
+        elif wanted.lower() == "division" or wanted.lower() == "divide" or wanted.lower() == "dividing" or wanted.lower() == "divide it" or wanted.lower() == "make it division" or wanted.lower() == "make it divide" or wanted.lower() == "divide them" or wanted.lower() == "divide these" or wanted.lower() == "divide those" or wanted.lower() == "divide this" or wanted.lower() == "divide that":
             p2.div(n1= any, n2= any)
+        elif wanted.lower() == "volume of cuboid" or wanted.lower() == "cuboid volume" or wanted.lower() == "cuboid" or wanted.lower() == "volume cuboid" or wanted.lower() == "volume of a cuboid" or wanted.lower() == "volume of the cuboid" or wanted.lower() == "volume" or wanted.lower() == "cuboid volume" or wanted.lower() == "volume cuboid" or wanted.lower() == "volume of cuboids" or wanted.lower() == "cuboids volume" or wanted.lower() == "cuboids" or wanted.lower() == "volumes of cube" or wanted.lower() == "cube volumes" or wanted.lower() == "cube" or wanted.lower() == "volume cube" or wanted.lower() == "volume of a cube" or wanted.lower() == "volume of the cube" or wanted.lower() == "volume of cubes" or wanted.lower() == "cubes volume" or wanted.lower() == "cubes":
+            a_a.volume(length= any, breadth= any, height= any, vol= any)
+        elif wanted.lower() == "surface area of cuboid" or wanted.lower() == "cuboid surface area" or wanted.lower() == "cuboid" or wanted.lower() == "surface area cuboid" or wanted.lower() == "surface area of a cuboid" or wanted.lower() == "surface area of the cuboid" or wanted.lower() == "surface area" or wanted.lower() == "cuboid surface area" or wanted.lower() == "surface area cuboid" or wanted.lower() == "surface area of cuboids" or wanted.lower() == "cuboids surface area" or wanted.lower() == "cuboids" or wanted.lower() == "surface areas of cube" or wanted.lower() == "cube surface areas" or wanted.lower() == "cube" or wanted.lower() == "surface area cube" or wanted.lower() == "surface area of a cube" or wanted.lower() == "surface area of the cube" or wanted.lower() == "surface area of cubes" or wanted.lower() == "cubes surface area" or wanted.lower() == "cubes":
+            a_a.surface(length= any, breadth= any, height= any, sa= any)
+        elif wanted.lower() ==  "fibonacci" or wanted.lower() == "fibonacci sequence" or wanted.lower() == "fibonacci numbers" or wanted.lower() == "fibonacci series" or wanted.lower() == "fibonacci it" or wanted.lower() == "make it fibonacci" or wanted.lower() == "make it fibonacci sequence" or wanted.lower() == "make it fibonacci numbers" or wanted.lower() == "make it fibonacci series" or wanted.lower() == "give me fibonacci" or wanted.lower() == "give me fibonacci sequence" or wanted.lower() == "give me fibonacci numbers" or wanted.lower() == "give me fibonacci series":
+            a_a.fibonacci(n= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")

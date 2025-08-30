@@ -35,3 +35,26 @@ def square(side, area):
     side = float(input("Enter the Length of the Square "))
     area = math.pow(side, 2)
     print("The area of the square with", side, "as the length is", area)
+
+def volume(length, breadth, height, vol):
+    length = float(input("Enter the Length of the Cuboid "))
+    breadth = float(input("Enter the Breadth of the Cuboid "))
+    height = float(input("Enter the Height of the Cuboid "))
+    vol = length * breadth * height
+    print("The volume of the cuboid with", length, "as the length,", breadth, "as the breadth, and", height, "as the height is", vol)
+
+def surface(length, breadth, height, sa):
+    length = float(input("Enter the Length of the Cuboid "))
+    breadth = float(input("Enter the Breadth of the Cuboid "))
+    height = float(input("Enter the Height of the Cuboid "))
+    sa = 2 * (length * breadth + breadth * height + height * length)
+    print("The surface area of the cuboid with", length, "as the length,", breadth, "as the breadth, and", height, "as the height is", sa)
+
+def fibonacci(n):
+    n = int(input("Till Which fibonacci number do you want? "))
+    a, b = 0, 1
+    fib_sequence = []
+    for _ in range(n):
+        fib_sequence.append(a)
+        a, b = b, a + b
+    print(fib_sequence)
