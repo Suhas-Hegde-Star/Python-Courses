@@ -191,9 +191,55 @@ def ask(wanted):
             p2.sub(n1= any, n2= any)
         elif wanted.lower() == "subtract that":
             p2.sub(n1= any, n2= any)
-        elif wanted.lower() == "multiplication" or wanted.lower() == "multiply" or wanted.lower() == "times" or wanted.lower() == "multiplying" or wanted.lower() == "multiply it" or wanted.lower() == "make it multiplication" or wanted.lower() == "make it multiply" or wanted.lower() == "make it times" or wanted.lower() == "multiply them" or wanted.lower() == "multiply these" or wanted.lower() == "multiply those" or wanted.lower() == "multiply this" or wanted.lower() == "multiply that":
+        elif wanted.lower() == "multiplication":
             p2.mul(n1= any, n2= any)
-        elif wanted.lower() == "division" or wanted.lower() == "divide" or wanted.lower() == "dividing" or wanted.lower() == "divide it" or wanted.lower() == "make it division" or wanted.lower() == "make it divide" or wanted.lower() == "divide them" or wanted.lower() == "divide these" or wanted.lower() == "divide those" or wanted.lower() == "divide this" or wanted.lower() == "divide that":
+        elif wanted.lower() == "multiply":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "times":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "multiplying":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "multiply it":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "make it multiplication":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "make it multiply":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "make it times":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "multiply them":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "multiply these":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "multiply those":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "multiply this":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "multiply that":
+            p2.mul(n1= any, n2= any)
+        elif wanted.lower() == "division":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "divide":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "divided by":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "dividing":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "divide it":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "make it division":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "make it divide":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "make it divided by":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "make it dividing":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "divide them":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "divide these":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "divide those":
             p2.div(n1= any, n2= any)
         elif wanted.lower() ==  "fibonacci" or wanted.lower() == "fibonacci sequence" or wanted.lower() == "fibonacci numbers" or wanted.lower() == "fibonacci series" or wanted.lower() == "fibonacci it" or wanted.lower() == "make it fibonacci" or wanted.lower() == "make it fibonacci sequence" or wanted.lower() == "make it fibonacci numbers" or wanted.lower() == "make it fibonacci series" or wanted.lower() == "give me fibonacci" or wanted.lower() == "give me fibonacci sequence" or wanted.lower() == "give me fibonacci numbers" or wanted.lower() == "give me fibonacci series":
             a_a.fibonacci(n= any)
