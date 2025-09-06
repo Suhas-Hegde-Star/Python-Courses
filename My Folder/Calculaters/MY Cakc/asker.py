@@ -241,7 +241,33 @@ def ask(wanted):
             p2.div(n1= any, n2= any)
         elif wanted.lower() == "divide those":
             p2.div(n1= any, n2= any)
-        elif wanted.lower() ==  "fibonacci" or wanted.lower() == "fibonacci sequence" or wanted.lower() == "fibonacci numbers" or wanted.lower() == "fibonacci series" or wanted.lower() == "fibonacci it" or wanted.lower() == "make it fibonacci" or wanted.lower() == "make it fibonacci sequence" or wanted.lower() == "make it fibonacci numbers" or wanted.lower() == "make it fibonacci series" or wanted.lower() == "give me fibonacci" or wanted.lower() == "give me fibonacci sequence" or wanted.lower() == "give me fibonacci numbers" or wanted.lower() == "give me fibonacci series":
+        elif wanted.lower() == "divide this":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() == "divide that":
+            p2.div(n1= any, n2= any)
+        elif wanted.lower() ==  "fibonacci":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fibonacci sequence":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fibo":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fib":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fibonacci series":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fibo series":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fib series":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fibonacci sequence":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fibo sequence":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "fib sequence":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "calculate fibonacci":
+            a_a.fibonacci(n= any)
+        elif wanted.lower() == "calculate fibo":
             a_a.fibonacci(n= any)
         else:
             print("Input may be invalid\nOR\nWe do not have the data")
