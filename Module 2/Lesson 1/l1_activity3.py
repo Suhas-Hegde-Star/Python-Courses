@@ -15,7 +15,8 @@ elif vehicle_type.lower() == "luxury car" or vehicle_type == "4":
     milage = 20
     comfort = 95
 
-price = dest / milage
-f_price = (price * comfort) * 15
+price = dest * milage
+f_price = price * comfort
+final_price = f_price * 10 / 6
 
 print("The fare for the journey is: ₹", round(f_price, 0))
