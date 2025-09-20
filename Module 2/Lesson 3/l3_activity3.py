@@ -1,16 +1,14 @@
-n = input("Enter a number ")
-powe = len(n)
-sum = 0
-n = int(n)
-temp = int(n)
+limit = int(input("Enter the limit: "))
 
+for num in range(1, limit + 1):
+    powe = len(str(num))
+    sum = 0
+    temp = num
 
-while temp > 0:
-    digit = temp % 10
-    sum += digit ** powe
-    temp //= 10
+    while temp > 0:
+        digit = temp % 10
+        sum += digit ** powe
+        temp //= 10
 
-if sum == n:
-    print("Armstrong Number")
-else:
-    print("Not Armstog number")
+    if sum == num:
+        print(sum,"is an Armstrong Number")
