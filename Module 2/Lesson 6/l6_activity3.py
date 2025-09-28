@@ -1,10 +1,8 @@
 import turtle
 
 turtle.Screen().bgcolor("green")
-turtle.Screen().setup(700, 700)
 turtle.Screen().title("MAZE")
-turtle.shape("turtle")
-turtle.speed(0.5)
+turtle.speed("fastest")
 turtle.pensize(7)
 turtle.goto(0, 0)
 turtle.hideturtle()
@@ -14,9 +12,7 @@ s = 0
 
 while True:
     for i in range(4):
-        p.fd(s + 1)
-        p.lt(91)
+        p.fd(s + 0.5)
+        p.lt(170)
         s -= 5
     s += 1
-
-turtle.done
