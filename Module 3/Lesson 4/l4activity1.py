@@ -16,5 +16,5 @@ for i in range(number_of_inputs):
         log.append(one + " : Invalid Input")
         log.append("\n")
 
-with open("log.txt", "a") as f:
+with open("log1.txt", "a") as f:
     f.writelines(log)
