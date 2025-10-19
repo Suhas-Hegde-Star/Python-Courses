@@ -1,0 +1,13 @@
+Guess: 100 - High
+Guess: 10 - High
+Guessed the number 1 in 0 tries.
+Guess: 1 - Low
+Guess: 2 - Low
+Guess: 3 - Low
+Guess: 50 - Low
+Guess: 51 - Low
+Guess: 52 - Low
+Guess: 53 - Low
+Guess: 54 - Low
+Guess: 55 - Low
+Guessed the number 56 in 10 tries.

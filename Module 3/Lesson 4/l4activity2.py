@@ -1,9 +1,15 @@
-import datetime
+from datetime import datetime
 
-one = str(datetime.datetime.now())
+now = datetime.now()
+one = now.strftime("%Y-%m-%d (-::-) %H:%M:%S")
 log = []
 
 try:
+    num1, num2 = eval(input("Enter two numbers separated by comma: "))
+    if num1.lower() == "clear" and num2.lower() == "log":
+        with open("log2.txt", "w") as f:
+            f.write("")
+        print("Log file cleared.")
     num1, num2 = eval(input("Enter two numbers separated by comma: "))
     result = num1 / num2
     print("The result of division is:", result)
