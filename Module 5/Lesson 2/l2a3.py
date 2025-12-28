@@ -1,4 +1,17 @@
 class Employee:
+
+    """
+    Docstring for IOstring
+    
+            |--------|---------------|--------------------------------------|
+            | Steps  |   Function    |         Description                  |
+            |--------|---------------|--------------------------------------|
+            |Step 1  | get_info      |  Get employee information            |
+            |Step 2  | display_info  |  Display the employee information    |
+            |--------|---------------|--------------------------------------|
+
+    """
+
     def __init__(self):
         self.name = ""
         self.id = ""
