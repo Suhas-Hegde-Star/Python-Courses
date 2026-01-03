@@ -8,18 +8,18 @@ class bird:
     def sing(self):
         return "Bird is singing."
     
-class pengpeng(bird):
+class pengpengpengwin(bird):
     def __init__(self):
         super().__init__()
-        print("Pengpeng is created")
+        print("Pengpengpengwin is created")
 
     def fly(self):
-        return "Pengpeng is flying."
+        return "Pengpengpengwin is flying."
     
     def swim(self):
-        return "Pengpeng is swimming."
+        return "Pengpengpengwin is swimming."
     
-p = pengpeng()
+p = pengpengpengwin()
 print(p.sing())
 print(p.fly())
 print(p.swim())
