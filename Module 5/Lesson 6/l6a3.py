@@ -1,7 +1,7 @@
 import random
 import time
 
-# Dictionary of color of fruits
+# Dictionary of 50 color of food
 fruit_colors = {
     "Apple": "Red",
     "Banana": "Yellow",
@@ -12,7 +12,47 @@ fruit_colors = {
     "Kiwi": "Brown",
     "Mango": "Yellow",
     "Strawberry": "Red",
-    "Watermelon": "Green"
+    "Watermelon": "Green",
+    "Pineapple": "Yellow",
+    "Cherry": "Red",
+    "Peach": "Pink",
+    "Plum": "Purple",
+    "Raspberry": "Red",
+    "Blackberry": "Black",
+    "Cantaloupe": "Orange",
+    "Papaya": "Orange",
+    "Coconut": "Brown",
+    "Fig": "Purple",
+    "Pomegranate": "Red",
+    "Tangerine": "Orange",
+    "Cranberry": "Red",
+    "Apricot": "Orange",
+    "Grapefruit": "Pink",
+    "Passion Fruit": "Purple",
+    "Dragon Fruit": "Pink",
+    "Jackfruit": "Yellow",
+    "Starfruit": "Yellow",
+    "Durian": "Green",
+    "Persimmon": "Orange",
+    "Currant": "Red",
+    "Gooseberry": "Green",
+    "Quince": "Yellow",
+    "Ugli Fruit": "Green",
+    "Breadfruit": "Green",
+    "Salak": "Brown",
+    "Longan": "Brown",
+    "Lychee": "Red",
+    "Rambutan": "Red",
+    "Soursop": "Green",
+    "Jujube": "Red",    
+    "Medlar": "Brown",
+    "Cloudberry": "Orange",
+    "Huckleberry": "Blue",
+    "Boysenberry": "Purple",    
+    "Elderberry": "Black",
+    "Marionberry": "Purple",
+    "Salmonberry": "Orange",
+    "Tamarind": "Brown"
 }
 
 
