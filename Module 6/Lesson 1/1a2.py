@@ -2,12 +2,11 @@ import pygame
 
 pygame.init()
 
-height = 1025
-widthh = 1024
+height = 500
+widthh = 500
 
-screen = pygame.display.set_mode((widthh, height))
+display_surface = pygame.display.set_mode((widthh, height))
 
-display_surface = pygame.Surface((widthh, height))
 pygame.display.set_caption("Virat Kholi with his Lamborghini")
 
 background = pygame.transform.scale(pygame.image.load("C:\\Users\\madhu\\OneDrive\\Documents\\Python Courses\\Module 6\\Lesson 1\\Kholi.jpg").convert(), (widthh, height))
@@ -17,7 +16,7 @@ images2 = pygame.transform.scale(pygame.image.load("C:\\Users\\madhu\\OneDrive\\
 images2_rect = images2.get_rect()
 images2_rect.center = (widthh // 2, height // 2)
 
-text = pygame.font.Font(None, 32).render("Virat Kholi with his Lamborghini", True, (255, 255, 255))
+text = pygame.font.Font(None, 32).render("Virat Kholi with his Lamborghini", True, (1, 0, 0))
 text_rect = text.get_rect(center=(widthh // 2, 30))
 
 clock = pygame.time.Clock()
