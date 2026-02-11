@@ -1,8 +1,8 @@
-import tkinter as tk
+from tkinter import *
 
-window = tk.Tk()
+window = Tk()
 window.title("My First GUI")
 window.geometry("400x300")
-label = tk.Label(window, text="Hello, World!")
+label = Label(window, text="Hello, World!")
 label.pack()
 window.mainloop()
