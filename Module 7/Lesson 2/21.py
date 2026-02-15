@@ -9,7 +9,7 @@ for i in range(4):
     r.rowconfigure(i, weight=1, minsize=50)
     for j in range(3):
         r.columnconfigure(j, weight=1, minsize=50)
-        frame = Frame(master=r, relief=SOLID, borderwidth=6.7)
+        frame = Frame(r, relief=SOLID, borderwidth=6.7)
         frame.grid(row=i, column=j, padx=5, pady=5)
         label = Label(frame, text=number[i][j])
         label.pack( padx=5, pady=5)
