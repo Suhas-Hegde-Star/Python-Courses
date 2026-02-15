@@ -17,11 +17,21 @@ password_entry = Entry(frame, show="#")
 confirm_password_entry = Entry(frame, show="+-*/")
 
 def display():
-    print("You have entered the following details to login:")
-    print("Hi ", name_entry.get(), ",")
-    print("Your Phone Number is ", phone_entry.get())
-    print("You have registered with the email ID:", email_entry.get())
-    print("Your password is", password_entry.get())
+    msg1 = "You have entered the following details to login:"
+    msg2 = f"Hi {name_entry.get()},"
+    msg3 = f"Your Phone Number is {phone_entry.get()}"
+    msg4 = f"You have registered with the email ID: {email_entry.get()}"
+    msg5 = f"Your password is {password_entry.get()}"
+    label_msg1 = Label(frame, text=msg1)
+    label_msg2 = Label(frame, text=msg2)
+    label_msg3 = Label(frame, text=msg3)
+    label_msg4 = Label(frame, text=msg4)
+    label_msg5 = Label(frame, text=msg5)
+    label_msg1.pack(padx=5, pady=5)
+    label_msg2.pack(padx=5, pady=5)
+    label_msg3.pack(padx=5, pady=5)
+    label_msg4.pack(padx=5, pady=5)
+    label_msg5.pack(padx=5, pady=5)
 
 frame.pack(padx=10, pady=10)
 label1.pack(padx=5, pady=5)
