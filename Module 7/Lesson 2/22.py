@@ -37,10 +37,7 @@ frame.pack(padx=10, pady=10)
 label1.pack(padx=5, pady=5)
 name_entry.pack(padx=5, pady=5)
 label2.pack(padx=5, pady=5)
-if len(phone_entry.get()) != 10:
-    print("Please enter a valid 10 digit phone number.")
-else:
-    phone_entry.pack(padx=5, pady=5)
+phone_entry.pack(padx=5, pady=5)
 label3.pack(padx=5, pady=5)
 email_entry.pack(padx=5, pady=5)
 label4.pack(padx=5, pady=5)
