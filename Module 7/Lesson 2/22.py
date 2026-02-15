@@ -3,7 +3,7 @@ from tkinter import *
 r = Tk()
 r.title("Login Form")
 r.geometry("400x400")
-frame = Frame(r, relief=GROOVE, height=200, width=360, borderwidth=6.7)
+frame = Frame(r, relief=SOLID, height=200, width=360, borderwidth=6.7)
 
 label1 = Label(frame, text="Full Name (In letters only)")
 label2 = Label(frame, text="Phone Number (10 digit only)")
