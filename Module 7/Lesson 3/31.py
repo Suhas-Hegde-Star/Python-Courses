@@ -1,8 +1,11 @@
 from tkinter import *
-
 r = Tk()
-r.title("Login Form")
+r.title("Pros tho botton")
 r.geometry("400x400")
-frame = Frame(r, relief=SOLID, height=200, width=360, borderwidth=6.7)
-
+def handle_keypress(event):  print(event.char)
+r.bind("<Key>", handle_keypress)
+def handle_click(event):  print("The Button was clicked")
+buttonon = Button(r, text="Click Me")
+buttonon.pack()
+buttonon.bind("<Button-1>", handle_click)
 r.mainloop()
