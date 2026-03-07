@@ -6,7 +6,6 @@ root.title("Login to Website")
 root.geometry("400x300")
 
 Label(root, text="Username", fg="blue", bg="lightgray").pack()
-Label(root, text="Password", fg="blue", bg="lightgray").pack()
 Name_Entry = Entry(root)
 Password_Entry = Entry(root, show="*")
 
@@ -24,6 +23,7 @@ def login():
 Login_Button = Button(root, text="Login", command=login)
 
 Name_Entry.pack()
+Label(root, text="Password", fg="blue", bg="lightgray").pack()
 Password_Entry.pack()
 Login_Button.pack()
 root.mainloop()
