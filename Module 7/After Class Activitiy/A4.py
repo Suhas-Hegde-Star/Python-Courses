@@ -1,5 +1,3 @@
-# Write a Python program to create an application to take inputs of the principal amount, time period, and rate of interest from the user, and return the simple interest and compound interest on the same principle using the Python Tkinter library.
-
 from tkinter import *
 
 r = Tk()
